@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "pcc.abitstore.vn",
+      "script": "/home/pcc.abitstore.vn/public/bin/www",
+      "watch": true,
+      "instances": "max",
+      "exec_mode": "cluster",
+      "max_memory_restart": "250M",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
